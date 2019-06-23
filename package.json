@@ -3,8 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.18",
+    "@ffprobe-installer/ffprobe": "^1.0.12",
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "archiver": "^3.0.0",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffprobe": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^1.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-native-thumbnail-video": "^0.1.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -27,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000/"
 }
